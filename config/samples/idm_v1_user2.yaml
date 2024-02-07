@@ -1,0 +1,17 @@
+apiVersion: idm.micze.io/v1
+kind: User
+metadata:
+  labels:
+    app.kubernetes.io/name: user
+    app.kubernetes.io/instance: user-sample
+    app.kubernetes.io/part-of: go-identity-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: go-identity-operator
+  name: bob-user
+spec:
+  name: bobm
+  password: VMw@re1!
+  firstname: Bob
+  lastname: Minion
+  role: admin
+  age: 44
