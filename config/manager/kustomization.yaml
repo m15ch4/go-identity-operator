@@ -5,4 +5,4 @@ kind: Kustomization
 images:
 - name: controller
   newName: mczerwinski673/go-identity-operator
-  newTag: "0.1"
+  newTag: "0.2"

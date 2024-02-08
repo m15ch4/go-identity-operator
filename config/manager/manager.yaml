@@ -17,7 +17,7 @@ metadata:
   name: controller-config
   namespace: system
 data:
-  IDM_HOST: "172.20.10.6"
+  IDM_HOST: "192.168.6.150"
   IDM_PORT: "8090"
   IDM_USER: "John"
   IDM_PASS: "VMware1!"
